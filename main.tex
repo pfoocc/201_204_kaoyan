@@ -1,0 +1,46 @@
+\documentclass[twocolumn]{article}
+\usepackage{newclude}
+\usepackage{enumitem}
+\usepackage{ulem}
+\usepackage{setspace}
+\usepackage{tasks}
+\usepackage{fancyhdr}
+\usepackage{times}
+% \usepackage{color}
+\usepackage[
+paperwidth=297mm,
+paperheight=210mm,
+textwidth=287mm,
+textheight=195mm,
+bottom=5mm,
+headheight=5mm,
+headsep=2mm
+]{geometry}
+
+% \nopagecolor
+% \pagecolor[RGB]{245,245,213}
+% \color[RGB]{17,17,17}
+
+\setlength\columnsep{8mm}
+\setlength\parskip{.4ex}
+\linespread{2}
+
+\setlist[enumerate]{parsep=-0.5ex,itemsep=0ex}
+
+\settasks{
+    label=[\Alph*].,
+    label-width = 17pt,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancypagestyle{empty}
+
+
+
+\begin{document}
+
+\include{201/201}
+\include{204/204}
+
+\end{document}
